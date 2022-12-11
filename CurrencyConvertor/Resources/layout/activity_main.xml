@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" >
+
+
+
+     <TextView  
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="323.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="164.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinCur1" />
+        <Button
+            android:text="  NZD=>AUD  "
+            android:layout_width="166.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNZDAUD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="323.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="164.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinCur2" />
+        <Button
+            android:text="  NZD=>USD  "
+            android:layout_width="166.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNZDUSD" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="323.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="164.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinCur3" />
+        <Button
+            android:text="  AUD=>USD  "
+            android:layout_width="166.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAUDUSD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="323.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="164.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinCur4" />
+        <Button
+            android:text="  AUD=>NZD  "
+            android:layout_width="166.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAUDNZD" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="323.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:gravity="bottom"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="164.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinCur5" />
+        <Button
+            android:text="  USD=>NZD  "
+            android:layout_width="166.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUSDNZD" />
+    </LinearLayout>
+</LinearLayout>    
